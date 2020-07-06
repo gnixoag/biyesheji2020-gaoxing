@@ -1,0 +1,7 @@
+PROJECT FILE = "I:\_VT仿真模板\Mill_3axis\Mill_3axis\三轴立加VT模板.vcproject"
+SETUP NAME="PROGRAM" INDEX=1 FILE="I:\_VT仿真模板\Mill_3axis\Mill_3axis\三轴立加VT模板.vcproject"
+SETUP NAME="PROGRAM" INDEX=1 MERGE FILE="I:\UG_part\_工作室\_CNC编程设计工作室\20200531-三轴VT仿真\VT仿真\2(1)-PROGRAM.vctmp"
+SETUP NAME="PROGRAM_1" INDEX=1 FILE="I:\_VT仿真模板\Mill_3axis\Mill_3axis\三轴立加VT模板.vcproject"
+SETUP NAME="PROGRAM_1" INDEX=1 MERGE FILE="I:\UG_part\_工作室\_CNC编程设计工作室\20200531-三轴VT仿真\VT仿真\2(1)-PROGRAM_1.vctmp"
+SETUP NAME="PROGRAM_2" INDEX=1 FILE="I:\_VT仿真模板\Mill_3axis\Mill_3axis\三轴立加VT模板.vcproject"
+SETUP NAME="PROGRAM_2" INDEX=1 MERGE FILE="I:\UG_part\_工作室\_CNC编程设计工作室\20200531-三轴VT仿真\VT仿真\2(1)-PROGRAM_2.vctmp"

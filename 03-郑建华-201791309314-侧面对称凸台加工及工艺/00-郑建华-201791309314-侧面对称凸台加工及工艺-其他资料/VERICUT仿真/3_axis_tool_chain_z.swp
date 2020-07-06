@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<VERICUT_MODEL Version="7.0">
+	<SWEEP Zmin="9" Zmax="32">
+		<PT>
+			<X>-5.125</X>
+			<Y>0</Y>
+		</PT>
+		<PT>
+			<X>5.125</X>
+			<Y>0</Y>
+		</PT>
+		<PT>
+			<X>8</X>
+			<Y>23</Y>
+		</PT>
+		<PT>
+			<X>-8</X>
+			<Y>23</Y>
+		</PT>
+		<PT>
+			<X>-5.125</X>
+			<Y>0</Y>
+		</PT>
+	</SWEEP>
+</VERICUT_MODEL>

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<VcProject Version="8.0" Unit="millimeter">
+  <Setup Name="PROGRAM_2" Active="on">
+    <ToolMan>
+      <Library>I:\UG_part\_工作室\_CNC编程设计工作室\20200531-三轴VT仿真\VT仿真\2(1).tls</Library>
+    </ToolMan>
+    <NCPrograms Selected="on" Type="gcode" Change="tool_num" List="tool_num">
+    </NCPrograms>
+    <ToolChange>
+      <Event NCProgram="1" Filter="on" Init="1">
+        <Cutter Ident="1">1</Cutter>
+        <Tool Use="mill" Teeth="2"> </Tool>
+      </Event>
+      <Event NCProgram="1" Filter="on" Init="2">
+        <Cutter Ident="2">2</Cutter>
+        <Tool Use="mill" Teeth="2"> </Tool>
+      </Event>
+      <Event NCProgram="1" Filter="on" Init="3">
+        <Cutter Ident="3">3</Cutter>
+        <Tool Use="mill" Teeth="2"> </Tool>
+      </Event>
+      <Event NCProgram="1" Filter="on" Init="4">
+        <Cutter Ident="4">4</Cutter>
+        <Tool Use="mill" Teeth="2"> </Tool>
+      </Event>
+      <Event NCProgram="1" Filter="on" Init="5">
+        <Cutter Ident="5">5</Cutter>
+        <Tool Use="mill" Teeth="2"> </Tool>
+      </Event>
+      <Event NCProgram="1" Filter="on" Init="6">
+        <Cutter Ident="6">6</Cutter>
+        <Tool Use="mill" Teeth="2"> </Tool>
+      </Event>
+      <Event NCProgram="1" Filter="on" Init="7">
+        <Cutter Ident="7">7</Cutter>
+        <Tool Use="mill" Teeth="2"> </Tool>
+      </Event>
+    </ToolChange>
+    <Build>
+      <Component Name="Stock"
+       Type="Stock" Visible="All" Draw="Shaded">
+        <Attach>Fixture</Attach>
+        <Block Length="98" Width="148" Height="48" Visible="on">
+          <Position X="74" Y="-49" Z="0"/>
+          <Rotation I="180" J="0" K="-180"/>
+        </Block>
+      </Component>
+      <Component Name="Fixture"
+       Type="Fixture" Visible="All" Draw="Shaded">
+        <Attach>Attach</Attach>
+      </Component>
+    </Build>
+    <GCode>
+    </GCode>
+    <CSystems>
+      <CSystem Name="PROGRAM_ZERO" Type="component" Visible="none">
+        <Attach>Stock</Attach>
+        <Position X="0" Y="0" Z="0"/>
+        <Rotation I="0" J="0" K="0"/>
+      </CSystem>
+      <CSystem Name="***STOCK***" Type="component" Visible="none" Transition="on">
+        <Attach>Stock</Attach>
+        <Position X="0" Y="0" Z="0"/>
+        <Rotation I="0" J="0" K="0"/>
+      </CSystem>
+    </CSystems>
+    <APT>
+      <Matrix Process="off"/>
+    </APT>
+  </Setup>
+</VcProject>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<VERICUT_MODEL Version="7.0">
+	<SWEEP Zmin="0" Zmax="0.25">
+		<PT>
+			<X>11</X>
+			<Y>0</Y>
+		</PT>
+		<ARC Direction="Shortest">
+			<X>0</X>
+			<Y>0</Y>
+			<RADIUS>11</RADIUS>
+		</ARC>
+		<PT>
+			<X>0</X>
+			<Y>11</Y>
+		</PT>
+		<ARC Direction="Shortest">
+			<X>0</X>
+			<Y>0</Y>
+			<RADIUS>11</RADIUS>
+		</ARC>
+		<PT>
+			<X>-11</X>
+			<Y>0</Y>
+		</PT>
+		<ARC Direction="Shortest">
+			<X>0</X>
+			<Y>0</Y>
+			<RADIUS>11</RADIUS>
+		</ARC>
+		<PT>
+			<X>0</X>
+			<Y>-11</Y>
+		</PT>
+		<ARC Direction="Shortest">
+			<X>0</X>
+			<Y>0</Y>
+			<RADIUS>11</RADIUS>
+		</ARC>
+		<PT>
+			<X>11</X>
+			<Y>0</Y>
+		</PT>
+	</SWEEP>
+</VERICUT_MODEL>

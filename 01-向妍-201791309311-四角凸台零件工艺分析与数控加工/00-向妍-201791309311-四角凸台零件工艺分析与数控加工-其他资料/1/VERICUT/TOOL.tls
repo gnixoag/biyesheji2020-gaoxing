@@ -1,0 +1,1403 @@
+<?xml version="1.0"?>
+<CGTechToolLibrary Version="8.1">
+  <Information>
+    <InfoUserName>Administrator</InfoUserName>
+    <InfoDateTime>Fri Apr 14 11:26:19 2028</InfoDateTime>
+    <InfoVericutVersion>8.1.1</InfoVericutVersion>
+    <InfoBuildDate>October 02, 2017 </InfoBuildDate>
+    <InfoLibraryDate>10/02/17</InfoLibraryDate>
+    <InfoCustomerName>LND-7330757468@CS</InfoCustomerName>
+    <InfoCustomerID>040061</InfoCustomerID>
+    <InfoServerID>001</InfoServerID>
+    <InfoHostID>442a93cfb0d8</InfoHostID>
+  </Information>
+  <ReportName>HSK63-Werkzeuge_V6_Werkzeuge.txt</ReportName>
+  <Tools>
+    <Tool ID="D8-DJ-H6" Units="Millimeter" Stack="FALSE">
+      <Force_data helix_angle="0.000000" radial_rake="0.000000" force_method="0" material="0" edge_type="0" 
+	 feed_limit="7434.000000" chip_thickness="0.025000" force_limit="0.000000" power_limit="0.000000" plunge_feed="0" 
+	 start_angle="90.000000" feed_drop="80.000000" cutoutput="0" force_resolution="0" force_resolution_distance="0.000000" 
+      		force_unit="1" force_cutchannel="0" force_ccstartangle="0.000000" force_ccfeedrop="80.000000" force_minfeedChange="25.000000" force_minfeedChange_def="0" force_mincutfeedrate="25.000000" 
+		force_mincutfeedrate_def="0" force_aircutfeedrate="16510.000000" force_aircutfeedrate_def="0" force_toolType="" force_edgeMaterial="" 
+      		force_cleanup_feedrate="8260.000000" force_cleanup_feedratedef="1" 
+      		force_entry_feedrate="0" force_entry_feedrateval="25.000000" force_entry_fd_programmed="100.000000" force_entry_fd_percent="100.000000" force_entry_clearancedistance="0.100000" force_entry_cutdistance="0.100000" 
+		force_exit_feedrate="0" force_exit_feedrateval="25.000000" force_exit_fd_programmed="100.000000" force_exit_fd_percent="100.000000" force_exit_clearancedistance="0.100000" force_exit_cutdistance="0.100000" 
+      		force_plunge_feedrate="0" force_plunge_feedrateval="0.000000" force_plunge_fd_programmed="100.000000" force_plunge_clearancedistance="0.000000" 
+		force_retract_feedrate="0" force_retract_feedrateval="0.000000" force_retract_fd_programmed="0.000000" 
+      		force_treatAsInsert="0" force_MaxToolDeflection="0.025400" force_showToolDeflWarnings="0"/>
+      <Description>D8-J</Description>
+      <Teeth>4</Teeth>
+      <Type>Milling</Type>
+      <Cutter>
+        <Apt ID="Cutter1" ParentID="Holder1" Type="APT 7" >
+          <D>8</D>
+          <R>0</R>
+          <E>0</E>
+          <F>4</F>
+          <A>45</A>
+          <B>0</B>
+          <H>60</H>
+          <R2>0</R2>
+          <E2>0</E2>
+          <F2>0</F2>
+          <SpindleDirection>CW</SpindleDirection>
+          <FluteLength>20</FluteLength>
+          <ShankDiameter>8</ShankDiameter>
+          <Alternate>off</Alternate>
+        </Apt>
+      </Cutter>
+      <Holder>
+        <SOR ID="Holder1"  DRILLMILL="FALSE">
+          <Pt>
+            <X>0</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>15.875</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>6.35</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>88.9</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>90.17</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>93.98</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>95.25</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>101.6</Z>
+          </Pt>
+          <Pt>
+            <X>20.066</X>
+            <Z>203.2</Z>
+          </Pt>
+          <Pt>
+            <X>0</X>
+            <Z>203.2</Z>
+          </Pt>
+          <SpindleDirection>CW</SpindleDirection>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>35</Z>
+          </Origin>
+          <NoSpin>0</NoSpin>
+          <Alternate>off</Alternate>
+        </SOR>
+      </Holder>
+      <GagePoint>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>178.425</Z>
+      </GagePoint>
+      <CutterCompensation ID="4">0</CutterCompensation>
+    </Tool>
+    <Tool ID="D8-H2" Units="Millimeter" Stack="FALSE">
+      <Force_data helix_angle="0.000000" radial_rake="0.000000" force_method="0" material="0" edge_type="0" 
+	 feed_limit="7434.000000" chip_thickness="0.025000" force_limit="0.000000" power_limit="0.000000" plunge_feed="0" 
+	 start_angle="90.000000" feed_drop="80.000000" cutoutput="0" force_resolution="0" force_resolution_distance="0.000000" 
+      		force_unit="1" force_cutchannel="0" force_ccstartangle="0.000000" force_ccfeedrop="80.000000" force_minfeedChange="25.000000" force_minfeedChange_def="0" force_mincutfeedrate="25.000000" 
+		force_mincutfeedrate_def="0" force_aircutfeedrate="16510.000000" force_aircutfeedrate_def="0" force_toolType="" force_edgeMaterial="" 
+      		force_cleanup_feedrate="8260.000000" force_cleanup_feedratedef="1" 
+      		force_entry_feedrate="0" force_entry_feedrateval="25.000000" force_entry_fd_programmed="100.000000" force_entry_fd_percent="100.000000" force_entry_clearancedistance="0.100000" force_entry_cutdistance="0.100000" 
+		force_exit_feedrate="0" force_exit_feedrateval="25.000000" force_exit_fd_programmed="100.000000" force_exit_fd_percent="100.000000" force_exit_clearancedistance="0.100000" force_exit_cutdistance="0.100000" 
+      		force_plunge_feedrate="0" force_plunge_feedrateval="0.000000" force_plunge_fd_programmed="100.000000" force_plunge_clearancedistance="0.000000" 
+		force_retract_feedrate="0" force_retract_feedrateval="0.000000" force_retract_fd_programmed="0.000000" 
+      		force_treatAsInsert="0" force_MaxToolDeflection="0.025400" force_showToolDeflWarnings="0"/>
+      <Description>D8 -KC</Description>
+      <Teeth>4</Teeth>
+      <Type>Milling</Type>
+      <Cutter>
+        <Apt ID="Cutter1" ParentID="Holder1" Type="BULL NOSE" >
+          <D>8</D>
+          <R>0</R>
+          <E>0</E>
+          <F>0</F>
+          <A>0</A>
+          <B>0</B>
+          <H>60</H>
+          <R2>0</R2>
+          <E2>0</E2>
+          <F2>0</F2>
+          <SpindleDirection>CW</SpindleDirection>
+          <FluteLength>20</FluteLength>
+          <ShankDiameter>8</ShankDiameter>
+          <Alternate>off</Alternate>
+        </Apt>
+      </Cutter>
+      <Holder>
+        <SOR ID="Holder1"  DRILLMILL="FALSE">
+          <Pt>
+            <X>0</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>15.875</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>6.35</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>88.9</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>90.17</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>93.98</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>95.25</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>101.6</Z>
+          </Pt>
+          <Pt>
+            <X>20.066</X>
+            <Z>203.2</Z>
+          </Pt>
+          <Pt>
+            <X>0</X>
+            <Z>203.2</Z>
+          </Pt>
+          <SpindleDirection>CW</SpindleDirection>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>35</Z>
+          </Origin>
+          <NoSpin>0</NoSpin>
+          <Alternate>off</Alternate>
+        </SOR>
+      </Holder>
+      <GagePoint>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>178.425</Z>
+      </GagePoint>
+      <CutterCompensation ID="2">0</CutterCompensation>
+    </Tool>
+    <Tool ID="D6-H7" Units="Millimeter" Stack="FALSE">
+      <Force_data helix_angle="0.000000" radial_rake="0.000000" force_method="0" material="0" edge_type="0" 
+	 feed_limit="7434.000000" chip_thickness="0.025000" force_limit="0.000000" power_limit="0.000000" plunge_feed="0" 
+	 start_angle="90.000000" feed_drop="80.000000" cutoutput="0" force_resolution="0" force_resolution_distance="0.000000" 
+      		force_unit="1" force_cutchannel="0" force_ccstartangle="0.000000" force_ccfeedrop="80.000000" force_minfeedChange="25.000000" force_minfeedChange_def="0" force_mincutfeedrate="25.000000" 
+		force_mincutfeedrate_def="0" force_aircutfeedrate="16510.000000" force_aircutfeedrate_def="0" force_toolType="" force_edgeMaterial="" 
+      		force_cleanup_feedrate="8260.000000" force_cleanup_feedratedef="1" 
+      		force_entry_feedrate="0" force_entry_feedrateval="25.000000" force_entry_fd_programmed="100.000000" force_entry_fd_percent="100.000000" force_entry_clearancedistance="0.100000" force_entry_cutdistance="0.100000" 
+		force_exit_feedrate="0" force_exit_feedrateval="25.000000" force_exit_fd_programmed="100.000000" force_exit_fd_percent="100.000000" force_exit_clearancedistance="0.100000" force_exit_cutdistance="0.100000" 
+      		force_plunge_feedrate="0" force_plunge_feedrateval="0.000000" force_plunge_fd_programmed="100.000000" force_plunge_clearancedistance="0.000000" 
+		force_retract_feedrate="0" force_retract_feedrateval="0.000000" force_retract_fd_programmed="0.000000" 
+      		force_treatAsInsert="0" force_MaxToolDeflection="0.025400" force_showToolDeflWarnings="0"/>
+      <Description>D8-J</Description>
+      <Teeth>4</Teeth>
+      <Type>Milling</Type>
+      <Cutter>
+        <Apt ID="Cutter1" ParentID="Holder1" Type="BULL NOSE" >
+          <D>6</D>
+          <R>0</R>
+          <E>0</E>
+          <F>0</F>
+          <A>0</A>
+          <B>0</B>
+          <H>60</H>
+          <R2>0</R2>
+          <E2>0</E2>
+          <F2>0</F2>
+          <SpindleDirection>CW</SpindleDirection>
+          <FluteLength>15</FluteLength>
+          <ShankDiameter>6</ShankDiameter>
+          <Alternate>off</Alternate>
+        </Apt>
+      </Cutter>
+      <Holder>
+        <SOR ID="Holder1"  DRILLMILL="FALSE">
+          <Pt>
+            <X>0</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>15.875</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>6.35</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>88.9</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>90.17</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>93.98</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>95.25</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>101.6</Z>
+          </Pt>
+          <Pt>
+            <X>20.066</X>
+            <Z>203.2</Z>
+          </Pt>
+          <Pt>
+            <X>0</X>
+            <Z>203.2</Z>
+          </Pt>
+          <SpindleDirection>CW</SpindleDirection>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>25</Z>
+          </Origin>
+          <NoSpin>0</NoSpin>
+          <Alternate>off</Alternate>
+        </SOR>
+      </Holder>
+      <GagePoint>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>178.425</Z>
+      </GagePoint>
+      <CutterCompensation ID="4">0</CutterCompensation>
+    </Tool>
+    <Tool ID="D10-H3" Units="Millimeter" Stack="FALSE">
+      <Force_data helix_angle="0.000000" radial_rake="0.000000" force_method="0" material="0" edge_type="0" 
+	 feed_limit="7434.000000" chip_thickness="0.025000" force_limit="0.000000" power_limit="0.000000" plunge_feed="0" 
+	 start_angle="90.000000" feed_drop="80.000000" cutoutput="0" force_resolution="0" force_resolution_distance="0.000000" 
+      		force_unit="1" force_cutchannel="0" force_ccstartangle="0.000000" force_ccfeedrop="80.000000" force_minfeedChange="25.000000" force_minfeedChange_def="0" force_mincutfeedrate="25.000000" 
+		force_mincutfeedrate_def="0" force_aircutfeedrate="16510.000000" force_aircutfeedrate_def="0" force_toolType="" force_edgeMaterial="" 
+      		force_cleanup_feedrate="8260.000000" force_cleanup_feedratedef="1" 
+      		force_entry_feedrate="0" force_entry_feedrateval="25.000000" force_entry_fd_programmed="100.000000" force_entry_fd_percent="100.000000" force_entry_clearancedistance="0.100000" force_entry_cutdistance="0.100000" 
+		force_exit_feedrate="0" force_exit_feedrateval="25.000000" force_exit_fd_programmed="100.000000" force_exit_fd_percent="100.000000" force_exit_clearancedistance="0.100000" force_exit_cutdistance="0.100000" 
+      		force_plunge_feedrate="0" force_plunge_feedrateval="0.000000" force_plunge_fd_programmed="100.000000" force_plunge_clearancedistance="0.000000" 
+		force_retract_feedrate="0" force_retract_feedrateval="0.000000" force_retract_fd_programmed="0.000000" 
+      		force_treatAsInsert="0" force_MaxToolDeflection="0.025400" force_showToolDeflWarnings="0"/>
+      <Description>D10-KC-J</Description>
+      <Teeth>4</Teeth>
+      <Type>Milling</Type>
+      <Cutter>
+        <Apt ID="Cutter1" ParentID="Holder1" Type="BULL NOSE" >
+          <D>10</D>
+          <R>0</R>
+          <E>0</E>
+          <F>0</F>
+          <A>0</A>
+          <B>0</B>
+          <H>60</H>
+          <R2>0</R2>
+          <E2>0</E2>
+          <F2>0</F2>
+          <SpindleDirection>CW</SpindleDirection>
+          <FluteLength>25</FluteLength>
+          <ShankDiameter>10</ShankDiameter>
+          <Alternate>off</Alternate>
+        </Apt>
+      </Cutter>
+      <Holder>
+        <SOR ID="Holder1"  DRILLMILL="FALSE">
+          <Pt>
+            <X>0</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>15.875</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>6.35</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>88.9</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>90.17</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>93.98</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>95.25</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>101.6</Z>
+          </Pt>
+          <Pt>
+            <X>20.066</X>
+            <Z>203.2</Z>
+          </Pt>
+          <Pt>
+            <X>0</X>
+            <Z>203.2</Z>
+          </Pt>
+          <SpindleDirection>CW</SpindleDirection>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>35</Z>
+          </Origin>
+          <NoSpin>0</NoSpin>
+          <Alternate>off</Alternate>
+        </SOR>
+      </Holder>
+      <GagePoint>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>178.425</Z>
+      </GagePoint>
+      <CutterCompensation ID="3">0</CutterCompensation>
+    </Tool>
+    <Tool ID="D16-H1" Units="Millimeter" Stack="FALSE">
+      <Force_data helix_angle="0.000000" radial_rake="0.000000" force_method="0" material="0" edge_type="0" 
+	 feed_limit="7434.000000" chip_thickness="0.025000" force_limit="0.000000" power_limit="0.000000" plunge_feed="0" 
+	 start_angle="90.000000" feed_drop="80.000000" cutoutput="0" force_resolution="0" force_resolution_distance="0.000000" 
+      		force_unit="1" force_cutchannel="0" force_ccstartangle="0.000000" force_ccfeedrop="80.000000" force_minfeedChange="25.000000" force_minfeedChange_def="0" force_mincutfeedrate="25.000000" 
+		force_mincutfeedrate_def="0" force_aircutfeedrate="16510.000000" force_aircutfeedrate_def="0" force_toolType="" force_edgeMaterial="" 
+      		force_cleanup_feedrate="8260.000000" force_cleanup_feedratedef="1" 
+      		force_entry_feedrate="0" force_entry_feedrateval="25.000000" force_entry_fd_programmed="100.000000" force_entry_fd_percent="100.000000" force_entry_clearancedistance="0.100000" force_entry_cutdistance="0.100000" 
+		force_exit_feedrate="0" force_exit_feedrateval="25.000000" force_exit_fd_programmed="100.000000" force_exit_fd_percent="100.000000" force_exit_clearancedistance="0.100000" force_exit_cutdistance="0.100000" 
+      		force_plunge_feedrate="0" force_plunge_feedrateval="0.000000" force_plunge_fd_programmed="100.000000" force_plunge_clearancedistance="0.000000" 
+		force_retract_feedrate="0" force_retract_feedrateval="0.000000" force_retract_fd_programmed="0.000000" 
+      		force_treatAsInsert="0" force_MaxToolDeflection="0.025400" force_showToolDeflWarnings="0"/>
+      <Description>D16 x 4R Bull End</Description>
+      <Teeth>4</Teeth>
+      <Type>Milling</Type>
+      <Cutter>
+        <Apt ID="Cutter1" ParentID="Holder1" Type="BULL NOSE" >
+          <D>16</D>
+          <R>0.8</R>
+          <E>7.2</E>
+          <F>0.8</F>
+          <A>0</A>
+          <B>0</B>
+          <H>150</H>
+          <R2>0</R2>
+          <E2>0</E2>
+          <F2>0</F2>
+          <SpindleDirection>CW</SpindleDirection>
+          <FluteLength>60</FluteLength>
+          <Alternate>off</Alternate>
+        </Apt>
+      </Cutter>
+      <Holder>
+        <SOR ID="Holder1"  DRILLMILL="FALSE">
+          <Pt>
+            <X>0</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>15.875</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>6.35</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>88.9</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>90.17</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>93.98</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>95.25</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>101.6</Z>
+          </Pt>
+          <Pt>
+            <X>20.066</X>
+            <Z>203.2</Z>
+          </Pt>
+          <Pt>
+            <X>0</X>
+            <Z>203.2</Z>
+          </Pt>
+          <SpindleDirection>CW</SpindleDirection>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>80</Z>
+          </Origin>
+          <NoSpin>0</NoSpin>
+          <Alternate>off</Alternate>
+        </SOR>
+      </Holder>
+      <GagePoint>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>178.425</Z>
+      </GagePoint>
+      <CutterCompensation ID="1">0</CutterCompensation>
+    </Tool>
+    <Tool ID="D8-H4" Units="Millimeter" Stack="FALSE">
+      <Force_data helix_angle="0.000000" radial_rake="0.000000" force_method="0" material="0" edge_type="0" 
+	 feed_limit="7434.000000" chip_thickness="0.025000" force_limit="0.000000" power_limit="0.000000" plunge_feed="0" 
+	 start_angle="90.000000" feed_drop="80.000000" cutoutput="0" force_resolution="0" force_resolution_distance="0.000000" 
+      		force_unit="1" force_cutchannel="0" force_ccstartangle="0.000000" force_ccfeedrop="80.000000" force_minfeedChange="25.000000" force_minfeedChange_def="0" force_mincutfeedrate="25.000000" 
+		force_mincutfeedrate_def="0" force_aircutfeedrate="16510.000000" force_aircutfeedrate_def="0" force_toolType="" force_edgeMaterial="" 
+      		force_cleanup_feedrate="8260.000000" force_cleanup_feedratedef="1" 
+      		force_entry_feedrate="0" force_entry_feedrateval="25.000000" force_entry_fd_programmed="100.000000" force_entry_fd_percent="100.000000" force_entry_clearancedistance="0.100000" force_entry_cutdistance="0.100000" 
+		force_exit_feedrate="0" force_exit_feedrateval="25.000000" force_exit_fd_programmed="100.000000" force_exit_fd_percent="100.000000" force_exit_clearancedistance="0.100000" force_exit_cutdistance="0.100000" 
+      		force_plunge_feedrate="0" force_plunge_feedrateval="0.000000" force_plunge_fd_programmed="100.000000" force_plunge_clearancedistance="0.000000" 
+		force_retract_feedrate="0" force_retract_feedrateval="0.000000" force_retract_fd_programmed="0.000000" 
+      		force_treatAsInsert="0" force_MaxToolDeflection="0.025400" force_showToolDeflWarnings="0"/>
+      <Description>D8-J</Description>
+      <Teeth>4</Teeth>
+      <Type>Milling</Type>
+      <Cutter>
+        <Apt ID="Cutter1" ParentID="Holder1" Type="BULL NOSE" >
+          <D>8</D>
+          <R>0</R>
+          <E>0</E>
+          <F>0</F>
+          <A>0</A>
+          <B>0</B>
+          <H>60</H>
+          <R2>0</R2>
+          <E2>0</E2>
+          <F2>0</F2>
+          <SpindleDirection>CW</SpindleDirection>
+          <FluteLength>20</FluteLength>
+          <ShankDiameter>8</ShankDiameter>
+          <Alternate>off</Alternate>
+        </Apt>
+      </Cutter>
+      <Holder>
+        <SOR ID="Holder1"  DRILLMILL="FALSE">
+          <Pt>
+            <X>0</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>15.875</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>6.35</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>88.9</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>90.17</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>93.98</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>95.25</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>101.6</Z>
+          </Pt>
+          <Pt>
+            <X>20.066</X>
+            <Z>203.2</Z>
+          </Pt>
+          <Pt>
+            <X>0</X>
+            <Z>203.2</Z>
+          </Pt>
+          <SpindleDirection>CW</SpindleDirection>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>35</Z>
+          </Origin>
+          <NoSpin>0</NoSpin>
+          <Alternate>off</Alternate>
+        </SOR>
+      </Holder>
+      <GagePoint>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>178.425</Z>
+      </GagePoint>
+      <CutterCompensation ID="4">0</CutterCompensation>
+    </Tool>
+    <Tool ID="R3-H5" Units="Millimeter" Stack="FALSE">
+      <Force_data helix_angle="0.000000" radial_rake="0.000000" force_method="0" material="0" edge_type="0" 
+	 feed_limit="7434.000000" chip_thickness="0.025000" force_limit="0.000000" power_limit="0.000000" plunge_feed="0" 
+	 start_angle="90.000000" feed_drop="80.000000" cutoutput="0" force_resolution="0" force_resolution_distance="0.000000" 
+      		force_unit="1" force_cutchannel="0" force_ccstartangle="0.000000" force_ccfeedrop="80.000000" force_minfeedChange="25.000000" force_minfeedChange_def="0" force_mincutfeedrate="25.000000" 
+		force_mincutfeedrate_def="0" force_aircutfeedrate="16510.000000" force_aircutfeedrate_def="0" force_toolType="" force_edgeMaterial="" 
+      		force_cleanup_feedrate="8260.000000" force_cleanup_feedratedef="1" 
+      		force_entry_feedrate="0" force_entry_feedrateval="25.000000" force_entry_fd_programmed="100.000000" force_entry_fd_percent="100.000000" force_entry_clearancedistance="0.100000" force_entry_cutdistance="0.100000" 
+		force_exit_feedrate="0" force_exit_feedrateval="25.000000" force_exit_fd_programmed="100.000000" force_exit_fd_percent="100.000000" force_exit_clearancedistance="0.100000" force_exit_cutdistance="0.100000" 
+      		force_plunge_feedrate="0" force_plunge_feedrateval="0.000000" force_plunge_fd_programmed="100.000000" force_plunge_clearancedistance="0.000000" 
+		force_retract_feedrate="0" force_retract_feedrateval="0.000000" force_retract_fd_programmed="0.000000" 
+      		force_treatAsInsert="0" force_MaxToolDeflection="0.025400" force_showToolDeflWarnings="0"/>
+      <Description>D8-J</Description>
+      <Teeth>4</Teeth>
+      <Type>Milling</Type>
+      <Cutter>
+        <Apt ID="Cutter1" ParentID="Holder1" Type="BALL END" >
+          <D>6</D>
+          <R>3</R>
+          <E>0</E>
+          <F>3</F>
+          <A>0</A>
+          <B>0</B>
+          <H>60</H>
+          <R2>0</R2>
+          <E2>0</E2>
+          <F2>0</F2>
+          <SpindleDirection>CW</SpindleDirection>
+          <FluteLength>15</FluteLength>
+          <ShankDiameter>6</ShankDiameter>
+          <Alternate>off</Alternate>
+        </Apt>
+      </Cutter>
+      <Holder>
+        <SOR ID="Holder1"  DRILLMILL="FALSE">
+          <Pt>
+            <X>0</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>15.875</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>6.35</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>88.9</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>90.17</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>93.98</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>95.25</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>101.6</Z>
+          </Pt>
+          <Pt>
+            <X>20.066</X>
+            <Z>203.2</Z>
+          </Pt>
+          <Pt>
+            <X>0</X>
+            <Z>203.2</Z>
+          </Pt>
+          <SpindleDirection>CW</SpindleDirection>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>30</Z>
+          </Origin>
+          <NoSpin>0</NoSpin>
+          <Alternate>off</Alternate>
+        </SOR>
+      </Holder>
+      <GagePoint>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>178.425</Z>
+      </GagePoint>
+      <CutterCompensation ID="5">0</CutterCompensation>
+    </Tool>
+    <Tool ID="ZT-D9.2-H13" Units="Millimeter" Stack="FALSE">
+      <Force_data helix_angle="30.000000" radial_rake="5.000000" force_method="3" material="0" edge_type="1" 
+	 feed_limit="7434.000000" chip_thickness="0.025000" force_limit="0.000000" power_limit="0.000000" plunge_feed="0" 
+	 start_angle="90.000000" feed_drop="80.000000" cutoutput="1" force_resolution="0" force_resolution_distance="25.000000" 
+      		force_unit="1" force_cutchannel="0" force_ccstartangle="0.000000" force_ccfeedrop="80.000000" force_minfeedChange="25.000000" force_minfeedChange_def="1" force_mincutfeedrate="25.000000" 
+		force_mincutfeedrate_def="1" force_aircutfeedrate="16510.000000" force_aircutfeedrate_def="1" force_toolType="" force_edgeMaterial="" 
+      		force_cleanup_feedrate="8260.000000" force_cleanup_feedratedef="1" 
+      		force_entry_feedrate="0" force_entry_feedrateval="25.000000" force_entry_fd_programmed="100.000000" force_entry_fd_percent="100.000000" force_entry_clearancedistance="0.100000" force_entry_cutdistance="0.100000" 
+		force_exit_feedrate="0" force_exit_feedrateval="25.000000" force_exit_fd_programmed="100.000000" force_exit_fd_percent="100.000000" force_exit_clearancedistance="0.100000" force_exit_cutdistance="0.100000" 
+      		force_plunge_feedrate="0" force_plunge_feedrateval="0.000000" force_plunge_fd_programmed="100.000000" force_plunge_clearancedistance="0.000000" 
+		force_retract_feedrate="0" force_retract_feedrateval="0.000000" force_retract_fd_programmed="0.000000" 
+      		force_treatAsInsert="0" force_MaxToolDeflection="0.025400" force_showToolDeflWarnings="0"/>
+      <Teeth>2</Teeth>
+      <Type>HoleMaking</Type>
+      <Cutter>
+        <Apt ID="刀具" ParentID="Holder1" Type="DRILL" >
+          <D>9.2</D>
+          <R>0</R>
+          <E>0</E>
+          <F>0</F>
+          <A>31</A>
+          <B>0</B>
+          <H>120</H>
+          <R2>0</R2>
+          <E2>0</E2>
+          <F2>0</F2>
+          <SpindleDirection>CW</SpindleDirection>
+          <FluteLength>70</FluteLength>
+          <ShankDiameter>9</ShankDiameter>
+          <XRGB>0x0020B2AA</XRGB>
+          <Alternate>off</Alternate>
+        </Apt>
+      </Cutter>
+      <Holder>
+        <SOR ID="Holder1"  DRILLMILL="FALSE">
+          <Pt>
+            <X>0</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>15.875</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>6.35</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>88.9</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>90.17</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>93.98</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>95.25</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>101.6</Z>
+          </Pt>
+          <Pt>
+            <X>20.066</X>
+            <Z>203.2</Z>
+          </Pt>
+          <Pt>
+            <X>0</X>
+            <Z>203.2</Z>
+          </Pt>
+          <SpindleDirection>CW</SpindleDirection>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>100</Z>
+          </Origin>
+          <NoSpin>0</NoSpin>
+          <Alternate>off</Alternate>
+        </SOR>
+      </Holder>
+      <GagePoint>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>198.425</Z>
+      </GagePoint>
+      <CutterCompensation ID="13">0</CutterCompensation>
+    </Tool>
+    <Tool ID="ZXZ-H11" Units="Millimeter" Stack="FALSE">
+      <Force_data helix_angle="30.000000" radial_rake="5.000000" force_method="3" material="0" edge_type="1" 
+	 feed_limit="7434.000000" chip_thickness="0.025000" force_limit="0.000000" power_limit="0.000000" plunge_feed="0" 
+	 start_angle="90.000000" feed_drop="80.000000" cutoutput="1" force_resolution="0" force_resolution_distance="25.000000" 
+      		force_unit="1" force_cutchannel="0" force_ccstartangle="0.000000" force_ccfeedrop="80.000000" force_minfeedChange="25.000000" force_minfeedChange_def="1" force_mincutfeedrate="25.000000" 
+		force_mincutfeedrate_def="1" force_aircutfeedrate="16510.000000" force_aircutfeedrate_def="1" force_toolType="" force_edgeMaterial="" 
+      		force_cleanup_feedrate="8260.000000" force_cleanup_feedratedef="1" 
+      		force_entry_feedrate="0" force_entry_feedrateval="25.000000" force_entry_fd_programmed="100.000000" force_entry_fd_percent="100.000000" force_entry_clearancedistance="0.100000" force_entry_cutdistance="0.100000" 
+		force_exit_feedrate="0" force_exit_feedrateval="25.000000" force_exit_fd_programmed="100.000000" force_exit_fd_percent="100.000000" force_exit_clearancedistance="0.100000" force_exit_cutdistance="0.100000" 
+      		force_plunge_feedrate="0" force_plunge_feedrateval="0.000000" force_plunge_fd_programmed="100.000000" force_plunge_clearancedistance="0.000000" 
+		force_retract_feedrate="0" force_retract_feedrateval="0.000000" force_retract_fd_programmed="0.000000" 
+      		force_treatAsInsert="0" force_MaxToolDeflection="0.025400" force_showToolDeflWarnings="0"/>
+      <Teeth>2</Teeth>
+      <Type>HoleMaking</Type>
+      <Cutter>
+        <CenterDrill ID="刀具" ParentID="Holder1" DRILLMILL="FALSE" Type="CenterDrill" >
+          <ChamferAngle>60</ChamferAngle>
+          <H>50</H>
+          <PilotAngle>30</PilotAngle>
+          <D>3.15</D>
+          <PilotLength>8.5</PilotLength>
+          <ShankDiameter>8</ShankDiameter>
+          <SpindleDirection>CW</SpindleDirection>
+          <FluteLength>13.60955</FluteLength>
+          <XRGB>0x0020B2AA</XRGB>
+          <Alternate>off</Alternate>
+        </CenterDrill>
+      </Cutter>
+      <Holder>
+        <SOR ID="Holder1"  DRILLMILL="FALSE">
+          <Pt>
+            <X>0</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>15.875</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>6.35</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>88.9</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>90.17</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>93.98</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>95.25</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>101.6</Z>
+          </Pt>
+          <Pt>
+            <X>20.066</X>
+            <Z>203.2</Z>
+          </Pt>
+          <Pt>
+            <X>0</X>
+            <Z>203.2</Z>
+          </Pt>
+          <SpindleDirection>CW</SpindleDirection>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>30</Z>
+          </Origin>
+          <NoSpin>0</NoSpin>
+          <Alternate>off</Alternate>
+        </SOR>
+      </Holder>
+      <GagePoint>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>128.425</Z>
+      </GagePoint>
+      <CutterCompensation ID="11">0</CutterCompensation>
+    </Tool>
+    <Tool ID="ZT-D11.8-H12" Units="Millimeter" Stack="FALSE">
+      <Force_data helix_angle="30.000000" radial_rake="5.000000" force_method="3" material="0" edge_type="1" 
+	 feed_limit="7434.000000" chip_thickness="0.025000" force_limit="0.000000" power_limit="0.000000" plunge_feed="0" 
+	 start_angle="90.000000" feed_drop="80.000000" cutoutput="1" force_resolution="0" force_resolution_distance="25.000000" 
+      		force_unit="1" force_cutchannel="0" force_ccstartangle="0.000000" force_ccfeedrop="80.000000" force_minfeedChange="25.000000" force_minfeedChange_def="1" force_mincutfeedrate="25.000000" 
+		force_mincutfeedrate_def="1" force_aircutfeedrate="16510.000000" force_aircutfeedrate_def="1" force_toolType="" force_edgeMaterial="" 
+      		force_cleanup_feedrate="8260.000000" force_cleanup_feedratedef="1" 
+      		force_entry_feedrate="0" force_entry_feedrateval="25.000000" force_entry_fd_programmed="100.000000" force_entry_fd_percent="100.000000" force_entry_clearancedistance="0.100000" force_entry_cutdistance="0.100000" 
+		force_exit_feedrate="0" force_exit_feedrateval="25.000000" force_exit_fd_programmed="100.000000" force_exit_fd_percent="100.000000" force_exit_clearancedistance="0.100000" force_exit_cutdistance="0.100000" 
+      		force_plunge_feedrate="0" force_plunge_feedrateval="0.000000" force_plunge_fd_programmed="100.000000" force_plunge_clearancedistance="0.000000" 
+		force_retract_feedrate="0" force_retract_feedrateval="0.000000" force_retract_fd_programmed="0.000000" 
+      		force_treatAsInsert="0" force_MaxToolDeflection="0.025400" force_showToolDeflWarnings="0"/>
+      <Teeth>2</Teeth>
+      <Type>HoleMaking</Type>
+      <Cutter>
+        <Apt ID="刀具" ParentID="Holder1" Type="DRILL" >
+          <D>11.8</D>
+          <R>0</R>
+          <E>0</E>
+          <F>0</F>
+          <A>31</A>
+          <B>0</B>
+          <H>120</H>
+          <R2>0</R2>
+          <E2>0</E2>
+          <F2>0</F2>
+          <SpindleDirection>CW</SpindleDirection>
+          <FluteLength>70</FluteLength>
+          <ShankDiameter>11.6</ShankDiameter>
+          <XRGB>0x0020B2AA</XRGB>
+          <Alternate>off</Alternate>
+        </Apt>
+      </Cutter>
+      <Holder>
+        <SOR ID="Holder1"  DRILLMILL="FALSE">
+          <Pt>
+            <X>0</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>15.875</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>6.35</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>88.9</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>90.17</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>93.98</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>95.25</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>101.6</Z>
+          </Pt>
+          <Pt>
+            <X>20.066</X>
+            <Z>203.2</Z>
+          </Pt>
+          <Pt>
+            <X>0</X>
+            <Z>203.2</Z>
+          </Pt>
+          <SpindleDirection>CW</SpindleDirection>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>100</Z>
+          </Origin>
+          <NoSpin>0</NoSpin>
+          <Alternate>off</Alternate>
+        </SOR>
+      </Holder>
+      <GagePoint>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>198.425</Z>
+      </GagePoint>
+      <CutterCompensation ID="12">0</CutterCompensation>
+    </Tool>
+    <Tool ID="JD-D12-H14" Units="Millimeter" Stack="FALSE">
+      <Force_data helix_angle="30.000000" radial_rake="5.000000" force_method="3" material="0" edge_type="1" 
+	 feed_limit="7434.000000" chip_thickness="0.025000" force_limit="0.000000" power_limit="0.000000" plunge_feed="0" 
+	 start_angle="90.000000" feed_drop="80.000000" cutoutput="1" force_resolution="0" force_resolution_distance="25.000000" 
+      		force_unit="1" force_cutchannel="0" force_ccstartangle="0.000000" force_ccfeedrop="80.000000" force_minfeedChange="25.000000" force_minfeedChange_def="1" force_mincutfeedrate="25.000000" 
+		force_mincutfeedrate_def="1" force_aircutfeedrate="16510.000000" force_aircutfeedrate_def="1" force_toolType="" force_edgeMaterial="" 
+      		force_cleanup_feedrate="8260.000000" force_cleanup_feedratedef="1" 
+      		force_entry_feedrate="0" force_entry_feedrateval="25.000000" force_entry_fd_programmed="100.000000" force_entry_fd_percent="100.000000" force_entry_clearancedistance="0.100000" force_entry_cutdistance="0.100000" 
+		force_exit_feedrate="0" force_exit_feedrateval="25.000000" force_exit_fd_programmed="100.000000" force_exit_fd_percent="100.000000" force_exit_clearancedistance="0.100000" force_exit_cutdistance="0.100000" 
+      		force_plunge_feedrate="0" force_plunge_feedrateval="0.000000" force_plunge_fd_programmed="100.000000" force_plunge_clearancedistance="0.000000" 
+		force_retract_feedrate="0" force_retract_feedrateval="0.000000" force_retract_fd_programmed="0.000000" 
+      		force_treatAsInsert="0" force_MaxToolDeflection="0.025400" force_showToolDeflWarnings="0"/>
+      <Teeth>2</Teeth>
+      <Type>HoleMaking</Type>
+      <Cutter>
+        <Reamer ID="刀具" ParentID="Holder1" DRILLMILL="FALSE" Type="Reamer" >
+          <ChamferLength>1</ChamferLength>
+          <D>12</D>
+          <H>120</H>
+          <ShankDiameter>11.5</ShankDiameter>
+          <SpindleDirection>CW</SpindleDirection>
+          <MAXIMUMMATERIALREMOVAL>0</MAXIMUMMATERIALREMOVAL>
+          <NeckDiameter>11</NeckDiameter>
+          <NeckLength>90</NeckLength>
+          <FluteLength>70</FluteLength>
+          <XRGB>0x0020B2AA</XRGB>
+          <Alternate>off</Alternate>
+        </Reamer>
+      </Cutter>
+      <Holder>
+        <SOR ID="Holder1"  DRILLMILL="FALSE">
+          <Pt>
+            <X>0</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>15.875</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>6.35</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>88.9</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>90.17</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>93.98</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>95.25</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>101.6</Z>
+          </Pt>
+          <Pt>
+            <X>20.066</X>
+            <Z>203.2</Z>
+          </Pt>
+          <Pt>
+            <X>0</X>
+            <Z>203.2</Z>
+          </Pt>
+          <SpindleDirection>CW</SpindleDirection>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>100</Z>
+          </Origin>
+          <NoSpin>0</NoSpin>
+          <Alternate>off</Alternate>
+        </SOR>
+      </Holder>
+      <GagePoint>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>198.425</Z>
+      </GagePoint>
+      <CutterCompensation ID="14">0</CutterCompensation>
+    </Tool>
+    <Tool ID="D6ZT-H15" Units="Millimeter" Stack="FALSE">
+      <Force_data helix_angle="30.000000" radial_rake="5.000000" force_method="3" material="0" edge_type="1" 
+	 feed_limit="7434.000000" chip_thickness="0.025000" force_limit="0.000000" power_limit="0.000000" plunge_feed="0" 
+	 start_angle="90.000000" feed_drop="80.000000" cutoutput="1" force_resolution="0" force_resolution_distance="25.000000" 
+      		force_unit="1" force_cutchannel="0" force_ccstartangle="0.000000" force_ccfeedrop="80.000000" force_minfeedChange="25.000000" force_minfeedChange_def="1" force_mincutfeedrate="25.000000" 
+		force_mincutfeedrate_def="1" force_aircutfeedrate="16510.000000" force_aircutfeedrate_def="1" force_toolType="" force_edgeMaterial="" 
+      		force_cleanup_feedrate="8260.000000" force_cleanup_feedratedef="1" 
+      		force_entry_feedrate="0" force_entry_feedrateval="25.000000" force_entry_fd_programmed="100.000000" force_entry_fd_percent="100.000000" force_entry_clearancedistance="0.100000" force_entry_cutdistance="0.100000" 
+		force_exit_feedrate="0" force_exit_feedrateval="25.000000" force_exit_fd_programmed="100.000000" force_exit_fd_percent="100.000000" force_exit_clearancedistance="0.100000" force_exit_cutdistance="0.100000" 
+      		force_plunge_feedrate="0" force_plunge_feedrateval="0.000000" force_plunge_fd_programmed="100.000000" force_plunge_clearancedistance="0.000000" 
+		force_retract_feedrate="0" force_retract_feedrateval="0.000000" force_retract_fd_programmed="0.000000" 
+      		force_treatAsInsert="0" force_MaxToolDeflection="0.025400" force_showToolDeflWarnings="0"/>
+      <Teeth>2</Teeth>
+      <Type>HoleMaking</Type>
+      <Cutter>
+        <Apt ID="刀具" ParentID="Holder1" Type="DRILL" >
+          <D>12</D>
+          <R>0</R>
+          <E>0</E>
+          <F>0</F>
+          <A>31</A>
+          <B>0</B>
+          <H>120</H>
+          <R2>0</R2>
+          <E2>0</E2>
+          <F2>0</F2>
+          <SpindleDirection>CW</SpindleDirection>
+          <FluteLength>70</FluteLength>
+          <ShankDiameter>11.5</ShankDiameter>
+          <XRGB>0x0020B2AA</XRGB>
+          <Alternate>off</Alternate>
+        </Apt>
+      </Cutter>
+      <Holder>
+        <SOR ID="Holder1"  DRILLMILL="FALSE">
+          <Pt>
+            <X>0</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>15.875</X>
+            <Z>0</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>6.35</Z>
+          </Pt>
+          <Pt>
+            <X>22.225</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>73.025</Z>
+          </Pt>
+          <Pt>
+            <X>41.275</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>85.725</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>88.9</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>90.17</Z>
+          </Pt>
+          <Pt>
+            <X>46.355</X>
+            <Z>93.98</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>95.25</Z>
+          </Pt>
+          <Pt>
+            <X>47.625</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>98.425</Z>
+          </Pt>
+          <Pt>
+            <X>34.925</X>
+            <Z>101.6</Z>
+          </Pt>
+          <Pt>
+            <X>20.066</X>
+            <Z>203.2</Z>
+          </Pt>
+          <Pt>
+            <X>0</X>
+            <Z>203.2</Z>
+          </Pt>
+          <SpindleDirection>CW</SpindleDirection>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>100</Z>
+          </Origin>
+          <NoSpin>0</NoSpin>
+          <Alternate>off</Alternate>
+        </SOR>
+      </Holder>
+      <GagePoint>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>198.425</Z>
+      </GagePoint>
+      <CutterCompensation ID="15">0</CutterCompensation>
+    </Tool>
+  </Tools>
+  <OptiPath>
+  </OptiPath>
+  <CSystems>
+  </CSystems>
+</CGTechToolLibrary>
